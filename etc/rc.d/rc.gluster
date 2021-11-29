@@ -1,11 +1,11 @@
 #!/bin/sh
 #
-# /etc/rc.d/rc.samba
+# /etc/rc.d/rc.gluster
 #
-# Start/stop/restart the Samba SMB file/print server.
+# Start/stop/restart the Gluster daemon.
 #
-# To make Samba start automatically at boot, make this
-# file executable:  chmod 755 /etc/rc.d/rc.samba
+# To make glusterd start automatically at boot, make this
+# file executable:  chmod 755 /etc/rc.d/rc.gluster
 #
 
 gluster_start() {
